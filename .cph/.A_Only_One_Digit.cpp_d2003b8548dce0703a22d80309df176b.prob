@@ -1,0 +1,1 @@
+{"name":"A. Only One Digit","url":"https://codeforces.com/contest/2126/problem/A","interactive":false,"memoryLimit":0,"timeLimit":3000,"group":"Codeforces - Codeforces Round 1037 (Div. 3)","tests":[{"id":1761766206016,"input":"5\n6\n96\n78\n122\n696\n","output":"6\n6\n7\n1\n6\n"}],"srcPath":"d:\\Work\\Codeforces\\A_Only_One_Digit.cpp"}
