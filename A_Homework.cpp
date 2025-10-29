@@ -18,6 +18,21 @@ int main(){
         string b;
         cin>>b;
 
-        
+        string c;
+        cin>>c;
+
+        bool dima=true;
+
+        for(int i=0;i<m;i++){
+            if(c[i]=='D'){
+                a+=b[i];
+            }
+            else{
+                a.insert(0,1,b[i]);
+            }
+            dima=!dima;
+        }
+
+        cout<<a<<endl;
     }
 }
