@@ -1,0 +1,1 @@
+{"name":"A. Maple and Multiplication","url":"https://codeforces.com/contest/2139/problem/A","interactive":false,"memoryLimit":0,"timeLimit":3000,"group":"Codeforces - Codeforces Round 1048 (Div. 2)","tests":[{"id":1761798979638,"input":"3\n1 2\n10 3\n1000 1000\n","output":"1\n2\n0\n"}],"srcPath":"d:\\Work\\Codeforces\\A_Maple_and_Multiplication.cpp"}
