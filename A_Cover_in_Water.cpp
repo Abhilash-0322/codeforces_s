@@ -10,8 +10,6 @@ int main(){
         cin>>n;
 
         string s;
-        cin>>s;
-        
-        
+        cin>>s;  
     }
 }
