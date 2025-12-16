@@ -1,0 +1,1 @@
+{"name":"A. Red-Blue Shuffle","url":"https://codeforces.com/contest/1459/problem/A","interactive":false,"memoryLimit":0,"timeLimit":3000,"group":"Codeforces - Codeforces Round 691 (Div. 2)","tests":[{"id":1765722866620,"input":"3\n3\n777\n111\n3\n314\n159\n5\n09281\n09281\n","output":"RED\nBLUE\nEQUAL\n"}],"srcPath":"d:\\Work\\Codeforces\\A_Red_Blue_Shuffle.cpp"}
