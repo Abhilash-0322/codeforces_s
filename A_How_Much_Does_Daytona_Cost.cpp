@@ -1,0 +1,32 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int t;
+    cin>>t;
+
+    while(t--){
+        int n,k;
+        cin>>n>>k;
+
+        vector<int>arr(n);
+        bool done=false;
+
+        for(int i=0;i<n;i++){
+            cin>>arr[i];
+        }
+
+
+        for(int i=0;i<n;i++){
+            if(arr[i]==k){
+                cout<<"YES"<<endl;
+                done=1;
+                break;
+            }
+        }
+
+        if(!done){
+            cout<<"NO"<<endl;
+        }
+    }
+}

@@ -17,16 +17,16 @@ int main(){
         }
         
         if(n<3){
-            cout<<"YES"<<endl;
+            cout<<"Yes"<<endl;
             continue;
         }
         
         if(n==3){
             if(arr[0]==arr[1] || arr[1]==arr[2] || arr[0]==arr[2]){
-                cout<<"YES"<<endl;
+                cout<<"Yes"<<endl;
             }
             else{
-                cout<<"NO"<<endl;
+                cout<<"No"<<endl;
             }
             continue;
         }
@@ -41,20 +41,20 @@ int main(){
         int other=0;
         
         if(counter.size()>2){
-            cout<<"NO"<<endl;
+            cout<<"No"<<endl;
         }
         else if(counter.size()==1){
-            cout<<"YES"<<endl;
+            cout<<"Yes"<<endl;
         }
         else{
             sort(arr.begin(),arr.end());
             int sm=arr[0];
             int lr=arr[n-1];
             if(abs(counter[lr]-counter[sm])<=1){
-                cout<<"YES"<<endl;
+                cout<<"Yes"<<endl;
             }
             else{
-                cout<<"NO"<<endl;
+                cout<<"No"<<endl;
             }
         }
     }

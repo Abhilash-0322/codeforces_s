@@ -13,8 +13,20 @@ int main(){
         cin>>s;  
 
         int ops=0;
+        int dots=0;
+        bool two=false;
 
         for(int i=0;i<n;i++){
+            if(s[i]=='.'){
+                dots++;
+                if(dots==3){
+                    two=true;
+                }
+            }
+            else{
+                dots=0;
+            }
+
             if(i==0 && s[i]=='.'){
                 ops++;
             }
@@ -29,6 +41,11 @@ int main(){
             }
         }
 
-        cout<<ops<<endl;
+        if(two && ops>2){
+            cout<<2<<endl;
+        }
+        else{
+            cout<<ops<<endl;
+        }
     }
 }
