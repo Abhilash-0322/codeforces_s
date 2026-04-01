@@ -1,0 +1,1 @@
+{"name":"B. Aleksa and Stack","url":"https://codeforces.com/contest/1878/problem/B","interactive":false,"memoryLimit":0,"timeLimit":3000,"group":"Codeforces - Codeforces Round 900 (Div. 3)","tests":[{"id":1774600790489,"input":"3\n3\n6\n7\n","output":"6 8 12\n7 11 14 20 22 100\n9 15 18 27 36 90 120\n"}],"srcPath":"d:\\Work\\Codeforces\\B_Aleksa_and_Stack.cpp"}
